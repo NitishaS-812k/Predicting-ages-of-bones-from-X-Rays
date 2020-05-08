@@ -1,7 +1,7 @@
 # Predicting-ages-of-bones-from-X-Rays
 This notebook explore the dataset used in the Pediatric Bone Age Challenge, 2017, also known as the RSNA(Radiological Society of North America) and attempts to predict the ages of children using X-Ray images of their hands.More information about the dataset and the dataset itself can be found on kaggle <a href = 'https://www.kaggle.com/kmader/rsna-bone-age'>here.</a><br>
 ## Model description
-The notebook uses the pre-trained model Xception to predict ages.The ImageDataGenerator class from keras has been used to enable efficient loading, preprocessing and augmentation of the dataset.The model obtained a mean absolute error of approximately 12.7 months.<br>
+The notebook uses the pre-trained model Xception to predict ages.The ImageDataGenerator class from keras has been used to enable efficient loading, preprocessing and augmentation of the dataset.The model obtained a mean absolute error of approximately 7.6 months.<br>
 ## Requirements
 <ul>
   <li> <b>Tensorflow:</b> To use Xception and related functions for training and preprocessing( keras is included in tensorflow)</li>
