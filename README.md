@@ -12,6 +12,9 @@ The notebook uses the pre-trained model Xception to predict ages.The ImageDataGe
   <li><b>Sklearn:</b> To split data into training and validation</li>
   </ul>
   
+## Results
+<img src ='hand_xray.png'></img>
+  
 ## Improvements possible
 InceptionResNetV2 might perform slightly better but it wasn't possible to train it because of the large size of its weights.There are many combinations of models possible using different pre-trained models, optimizers and learning rates.<br><br>
 The same notebook is available on kaggle <a href = 'https://www.kaggle.com/daenys2000/bone-age-prediction'>here.</a>
